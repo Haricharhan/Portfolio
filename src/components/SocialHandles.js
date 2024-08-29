@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaDiscord, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import React from 'react';
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const SocialHandles = () => {
@@ -19,7 +19,7 @@ const SocialHandles = () => {
           <FaXTwitter />
         </a>
     </div>
-  )
-}
+  );
+};
 
-export default SocialHandles
+export default SocialHandles;
