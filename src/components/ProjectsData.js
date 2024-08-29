@@ -1,6 +1,6 @@
 import { BiLogoCss3, BiLogoFirebase, BiLogoHtml5, BiLogoJavascript, BiLogoMongodb, BiLogoPython, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
-import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
-import { SiThemoviedatabase, SiExpress } from "react-icons/si";
+// import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
+// import { SiThemoviedatabase, SiExpress } from "react-icons/si";
 import image2048 from '../assets/Images/Pics/2048.png';
 import hand from '../assets/Images/Pics/hand2.png';
 const ProjectsData = [
