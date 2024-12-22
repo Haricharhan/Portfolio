@@ -51,12 +51,13 @@ const Navbar = () => {
             className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150 lg:ml-10"
             src={require("../assets/Images/Pics/logo.png")}
             alt="Hari Charhan"
-          style={{
-            width: '30px', // Set the width of the image
-            height: 'auto', // Maintain aspect ratio
-            border: '2px solid #FF8225', // Add a border
-            borderRadius: '8px' // Optional: Add rounded corners
-          }}
+            style={{
+              width: '30px', // Set the width of the image
+              height: 'auto', // Maintain aspect ratio
+              border: '2px solid rgba(232, 141, 103, 0.8)', // Add a border with opacity
+              borderRadius: '8px', // Optional: Add rounded corners
+              boxShadow: '1.5px 1.5px 10px rgba(255, 165, 0)', // Add a light orange shadow
+            }}
           />
         </Link>
         <nav
@@ -68,15 +69,17 @@ const Navbar = () => {
           {links.map((item) => {
             return (
               <Link
-                key={item.title}
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={750}
-                to={item.link}
-                className="mr-5 cursor-pointer hover:text-[#E88D67] md:mr-12" >
-                {item.title}
-              </Link>
+  key={item.title}
+  spy={true}
+  smooth={true}
+  offset={-100}
+  duration={750}
+  to={item.link}
+  className="mr-5 cursor-pointer hover:text-[#E88D67] md:mr-12"
+  style={{ textShadow: '1px 1px 2px black, 0 0 25px #E88D67, 0 0 5px #E88D67' }} // Add text-shadow
+>
+  {item.title}
+</Link>
             );
           })}
         </nav>
@@ -114,7 +117,8 @@ const Navbar = () => {
                       duration={750}
                       to={item.link}
                       className="cursor-pointer hover:text-[#E88D67]"
-                    >
+                      style={{ textShadow: '1px 1px 2px black, 0 0 25px blue, 0 0 5px #E88D67' }} // Add text-shadow
+                      >
                       {item.title}
                     </Link>
                   );
@@ -129,5 +133,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
