@@ -26,7 +26,7 @@ I’m a passionate full-stack web developer with a knack for creating dynamic an
 
 - **➡️ 2048 Game**: A fun and interactive browser-based 2048 puzzle game built with HTML, CSS, and JavaScript. Challenge yourself to combine tiles and reach the 2048 tile! [GitHub](https://github.com/Haricharhan/2048-Game) | [Live Demo](https://haricharhan-2048game.netlify.app)
 
-- **➡️ Portfolio**: A brief description of the project. Built using React, Tailwind CSS, and more. [Live Demo](https://haricharhan-2048game.netlify.app)
+- **➡️ Portfolio**: A brief description of the project. Built using React, Tailwind CSS, and more. [Live Demo]((https://haricharhan-portfolio.netlify.app/))
 
 ## 📸 Screenshots
 
