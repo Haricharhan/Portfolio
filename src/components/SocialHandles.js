@@ -8,7 +8,7 @@ const SocialHandles = () => {
         <a className="text-white text-2xl md:text-xl transition duration-700 hover:scale-125" href="https://github.com/Haricharhan" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a className="text-white text-2xl md:text-xl transition duration-700 hover:scale-125" href="https://www.linkedin.com/in/hari-charhan-9a5b88274/" target="_blank" rel="noreferrer">
+        <a className="text-white text-2xl md:text-xl transition duration-700 hover:scale-125" href="https://www.linkedin.com/in/haricharhan/" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
 

@@ -37,29 +37,26 @@ const Navbar = () => {
     <header className="text-white body-font fixed inset-x-0 z-50 bg-[#088395] header-top-padding">
       <div className="mx-auto py-2 px-5 flex flex-row justify-between items-center lg:py-4">
         <Link
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="false"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={750}
-          to="home"
-          className="flex justify-center items-center"
-        >
-          <img
-            className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150 lg:ml-10"
-            src={require("../assets/Images/Pics/logo.png")}
-            alt="Hari Charhan"
-            style={{
-              width: '30px', // Set the width of the image
-              height: 'auto', // Maintain aspect ratio
-              border: '2px solid rgba(232, 141, 103, 0.8)', // Add a border with opacity
-              borderRadius: '8px', // Optional: Add rounded corners
-              boxShadow: '1.5px 1.5px 10px rgba(255, 165, 0)', // Add a light orange shadow
-            }}
-          />
-        </Link>
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-easing="ease-out-cubic"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={750}
+            to="home"
+            className="flex items-center"
+          >
+            <img
+              className="w-11 h-11 lg:w-12 lg:h-12 ml-3 lg:ml-8 cursor-pointer rounded-xl
+              bg-gradient-to-br from-[#0f2027] to-[#2c5364]
+              transition duration-300 ease-in-out
+              hover:scale-110
+              hover:shadow-md"
+              src={require("../assets/Images/Pics/logoo.png")}
+              alt="Hari Charhan"
+            />
+          </Link>
         <nav
           data-aos="fade-left"
           data-aos-duration="1000"

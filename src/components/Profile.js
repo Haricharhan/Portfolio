@@ -25,7 +25,7 @@ const Profile = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1500"
             data-aos-once="false"
-            className="title-font md:text-3xl text-2xl mb-4 text-center font-medium text-white"
+            className="title-font md:text-3xl text-2xl mb-4 text-center font-medium text-[#1F2933]"
           >
             Hello , I am <span className="text-[#FC4100]" >Hari Charhan</span>
           </h2>
@@ -33,11 +33,11 @@ const Profile = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1500"
             data-aos-once="false"
-            className="text-3xl text-white mb-4 font-medium lg:inline-block"
+            className="text-3xl text-[#1E3A8A] mb-4 font-medium lg:inline-block"
           >
             &nbsp;
             <Typewriter
-              words={["Web Developer", "Web Designer", "Enthusiastic Dev"]}
+              words={["Data Analyst", "StoryTeller", "Python • SQL • Power BI"]}
               loop={false}
               typeSpeed={100}
               deleteSpeed={100}
@@ -48,23 +48,24 @@ const Profile = () => {
             data-aos="zoom-in-up"
             data-aos-duration="2000"
             data-aos-once="false"
-            className="mb-2 text-white text-lg md:text-xl leading-relaxed"
+            className="mb-2 text-[#1F2933] text-lg md:text-xl leading-relaxed"
           > 
-          I have a passion for designing technology websites           </p>
+          I am passionate about transforming raw data </p>
           <p
             data-aos="zoom-in-up"
             data-aos-duration="2000"
             data-aos-once="false"
-            className="text-lg text-white md:text-xl"
+            className="text-lg text-[#1F2933] md:text-xl"
           >
-          and enjoy creating visually engaging tech websites.          </p>
+          into meaningful insights and building efficient, scalable solutions. </p>
           <div
             data-aos="zoom-in-up"
             data-aos-duration="2000"
             data-aos-once="false"
             className="mt-7 flex gap-x-4 md:gap-x-5 justify-center md:justify-between"
           >
-            <button className="inline-flex font-medium text-white bg-black border-2 border-white py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
+            {/* Contact Me */}
+            <button className="inline-flex font-medium text-black bg-cornsilk border-2 border-dark-orange py-3 px-7 hover:bg-dark-orange hover:text-white rounded-full text-md xl:px-10">
               <Link
                 to="contact"
                 spy={true}
@@ -72,9 +73,21 @@ const Profile = () => {
                 offset={-100}
                 duration={750}
               >
-                Hire Me
+                Contact Me
               </Link>
             </button>
+            <button className="inline-flex font-medium text-black bg-cornsilk border-2 border-dark-orange py-3 px-7 hover:bg-dark-orange hover:text-white rounded-full text-md xl:px-10">
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={750}
+              >
+                View Projects
+              </Link>
+            </button>
+            
             <a
               href="https://drive.google.com/file/d/13B0mzlIIJtRjtiZLHP_49LbWTjcYI7Hf/view?usp=sharing"
               target="_blank"
