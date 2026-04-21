@@ -48,7 +48,7 @@ const Navbar = () => {
             className="flex items-center"
           >
             <img
-              className="w-11 h-11 lg:w-12 lg:h-12 ml-3 lg:ml-8 cursor-pointer rounded-xl
+              className="w-10 h-10 lg:w-12 lg:h-12 ml-3 lg:ml-8 cursor-pointer rounded-xl
               bg-gradient-to-br from-[#0f2027] to-[#2c5364]
               transition duration-300 ease-in-out
               hover:scale-110

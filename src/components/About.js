@@ -98,7 +98,7 @@ const About = () => {
 
               {/* Resume */}
               <a
-                href="https://drive.google.com/file/d/1n_iW0GU3YfKeHedkoPGTurvFpSRJmmUB/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QSV2fomB_iVQSb0A8QOr0SfmQYUfSVC1/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
